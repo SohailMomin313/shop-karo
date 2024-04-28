@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  background-color: #2874f0;
+}
+#navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.logo img {
+  /* border: 2px solid red; */
+  margin-top: 10px;
+  height: 45px;
+}
+.icons {
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.icons > li {
+  list-style: none;
+  text-decoration: none;
+  background-color: #2874f0;
+}
+.icons > li > a {
+  color: white;
+}
+.search-bar {
+  /* border: 2px solid yellow; */
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.search-bar input {
+  width: 200px;
+  height: 25px;
+}
+.search-bar button {
+  width: 80px;
+  height: 25px;
+}
+.search-bar button:hover {
+  background-color: #2874f0;
+}
